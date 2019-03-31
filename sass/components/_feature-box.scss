@@ -1,0 +1,124 @@
+.feature-box {
+    @include clearfix;
+    //background-color: rgba($color-white, .8);
+    font-size: 1.5rem;
+    padding: 2.5rem;
+    text-align: center;
+    border-radius: 3px;
+    //box-shadow: 0 1.5rem 4rem rgba($color-black, .15);
+    transition: transform .3s;
+
+    @include respond(tab-port) {
+        padding: 2rem;
+    }
+
+    &__circle {
+        position: relative;
+        left: 35%;
+        background-color: $color-secondary;
+        height: 5rem;
+        width: 5rem;
+        padding: 4rem;
+        border-radius: 50%;
+        transition: all .3s ease
+    }
+
+    &__icon {
+        height: 5rem;
+        width: 5rem;
+        background-size: cover;
+        transform: translate(-50%, -50%);
+
+        &-1 {
+            background-image: url(../img/icon_history_white.png)
+        }
+
+        &-2 {
+            background-image: url(../img/icon_leaf_white.png)
+        }
+
+        &-3 {
+            background-image: url(../img/icon_bottler_white.png)
+        }
+
+        //        font-size: 6rem;
+        //        margin-bottom: .5rem;
+        //        display: inline-block;
+        //        background-image: linear-gradient(to right, $color-primary-light, $color-primary-dark);
+        //        -webkit-background-clip: text;
+        //        color: transparent;
+
+        @include respond(tab-port) {
+            margin-bottom: 0;
+        }
+    }
+
+
+    &:hover &__icon-1 {
+        background-image: url(../img/icon_history_braz.png)
+    }
+
+    &:hover &__icon-2 {
+        background-image: url(../img/icon_leaf_braz.png)
+    }
+
+    &:hover &__icon-3 {
+        background-image: url(../img/icon_bottler_braz.png)
+    }
+
+    &__text {}
+
+    /*    &:hover {
+        transform: translateY(-1.5rem) scale(1.03);
+
+    }*/
+
+    &__img {
+        height: 25rem;
+        width: 100%;
+        background-color: aquamarine;
+        background-size: cover;
+
+        &--1 {
+            width: 100%;
+            background-image: url(../img/box_1.jpg);
+        }
+
+        &--2 {
+            width: 100%;
+            background-image: url(../img/box_2.jpg);
+        }
+
+        &--3 {
+            width: 100%;
+            background-image: url(../img/box_3.jpg);
+        }
+
+        &-mask {
+            height: 100%;
+            opacity: 0;
+            background-color: rgba($color-white, 0.25);
+            transition: all .3s ease;
+        }
+    }
+
+    &:hover &__img-mask,
+    &:hover .btn--green-action {
+        opacity: 1;
+    }
+
+    &:hover .btn--green-action {
+        transform: translateY(-100%);
+    }
+
+}
+
+.scale:hover {
+    transform: translateY(-1.5rem) scale(1.03);
+}
+
+.btn--green-action {
+    position: absolute;
+    opacity: 0;
+}
+

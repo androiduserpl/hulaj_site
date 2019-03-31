@@ -1,0 +1,26 @@
+.shop {
+    &__img {
+        line-height: 45rem;
+        background-image: url(../img/syrups.png);
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: center;
+    }
+}
+
+.feature-box-shop {
+    padding: 1;
+}
+
+.feature-box-absol {
+    position: relative;
+}
+.absol {
+    padding-top: 5rem;
+
+    & a span {
+        display: block;
+        font-size: 2rem;
+    }
+}
+

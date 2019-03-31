@@ -1,0 +1,34 @@
+.header {
+    &__slider {
+        position: relative;
+        overflow: hidden;
+
+        &--slide {
+            height: 60vh;
+            width: 100%;
+            background-size: cover;
+            background-position: center;
+            display: inline-block;
+            overflow: hidden;
+        }
+    }
+}
+
+#slide-1 {
+    background-image: url(../img/coconut_slajder.jpg);
+}
+
+#slide-2 {
+    background-image: url(../img/rose_slajder.jpg);
+}
+
+#slide-3 {
+    background-image: url(../img/vanilla_slajder.jpg);
+}
+
+.slick-dots {
+    position: relative;
+    bottom: 4rem;
+    display: inline-block;
+    right: -45rem;
+}

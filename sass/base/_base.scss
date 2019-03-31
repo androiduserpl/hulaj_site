@@ -1,0 +1,46 @@
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+//body {
+//    background-color: $color-background;
+//}
+
+section {
+    height: 100vh;
+}
+
+article {
+    padding: 3.375rem 3rem 3.375rem 15rem;
+}
+
+#nr01 {
+    background-color: $color-section-01;
+    color: $color-white;
+
+    img {
+        display: block;
+        height: 60vh;
+        max-width: 100%;
+    }
+}
+
+#nr02 {
+    background-color: $color-section-02;
+}
+
+#nr03 {
+    background-color: $color-section-03;
+}
+
+#nr04 {
+    background-color: $color-section-04;
+}
+
+#nr05 {
+    background-color: $color-section-05;
+}

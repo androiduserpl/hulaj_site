@@ -1,0 +1,66 @@
+.form {
+
+    &__group:not(:last-child) {
+        margin-bottom: 2rem;
+    }
+
+    &__input {
+        font-size: 1.5rem;
+        font-family: inherit;
+        color: $color-primary;
+        padding: 1.5rem 2rem;
+        border-radius: 2px;
+        background-color: rgba($color-white, .15);
+        border: solid 3px $color-secondary;
+        width: 90%;
+        display: block;
+        transition: all .3s;
+
+        &:focus {
+            outline: none;
+            box-shadow: 0 1rem 2rem rgba($color-black, .1);
+            border-bottom: 3px solid $color-primary;
+        }
+
+        &::-webkit-input-placeholder {
+            color: $color-gray-dark-2;
+        }
+
+        &:focus:invalid {
+            border-bottom: 3px solid $color-secondary-dark;
+        }
+    }
+
+    &__input:focus {
+        outline: none;
+        box-shadow: 0 1rem 2rem rgba($color-black, .1);
+        border-bottom: 3px solid $color-primary;
+    }
+
+    &__label {
+        font-size: 1.2rem;
+        font-weight: 700;
+        margin-top: .7rem;
+        text-transform: uppercase;
+        display: block;
+        transition: all .3s;
+
+    }
+
+    &__input:placeholder-shown + &__label {
+        opacity: 0;
+        visibility: hidden;
+        transform: translateY(-4rem);
+    }
+
+    &-img {
+        height: 60rem;
+        background-image: url(../img/caramel_drops.jpg);
+        background-size: cover;
+        background-position: left;
+    }
+
+    & textarea {
+        resize: none;
+    }
+}

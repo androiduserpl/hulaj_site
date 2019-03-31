@@ -1,0 +1,45 @@
+.section-story {
+
+    background-image:  linear-gradient(to right bottom, rgba($color-white, 0.7), rgba($color-white, 0.7)), url(../img/texture.jpg);
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 2rem;
+    padding: 2rem;
+}
+
+.story {
+    &__text {
+        transform: translateY(50%);
+    }
+
+    &__img {
+        height: 581px;
+        width: 581px;
+        background-size: cover;
+        margin: 0 auto;
+
+        &-1 {
+            background-image: url(../img/about_us_1.png);
+        }
+
+        &-2 {
+            background-image: url(../img/about_us_2.png);
+        }
+
+        &-3 {
+            background-image: url(../img/about_us_3.png);
+        }
+    }
+}
+
+
+.section-timeline {
+    padding: 2rem;
+    height: 581px;
+    //    background-image: url(../img/timeline.jpg);
+    //    background-size: cover;
+
+    & img {
+        height: 540px;
+    }
+}

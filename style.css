@@ -1,7 +1,102 @@
-body {
-  background-color: aquamarine; }
+/* colors */
+/* fonts */
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit; }
 
-h1 {
-  color: fuchsia;
-  text-transform: uppercase;
-  font-size: 5em; }
+section {
+  height: 100vh; }
+
+article {
+  padding: 3.375rem 3rem 3.375rem 15rem; }
+
+#nr01 {
+  background-color: #363988;
+  color: #ffffff; }
+  #nr01 img {
+    display: block;
+    height: 60vh;
+    max-width: 100%; }
+
+#nr02 {
+  background-color: #7b3688; }
+
+#nr03 {
+  background-color: #3f8836; }
+
+#nr04 {
+  background-color: #883659; }
+
+#nr05 {
+  background-color: #049648; }
+
+body {
+  font-family: "Lato", sans-serif; }
+
+.navbar {
+  font-weight: 700;
+  text-transform: uppercase; }
+
+.nav-link {
+  font-size: 0.875rem; }
+
+/* nav left - snipet from https://mladenplavsic.github.io/bootstrap-navbar-sidebar/ */
+.navbar.fixed-left {
+  position: fixed;
+  top: 8.7rem;
+  width: 8rem;
+  left: 0;
+  right: 0;
+  z-index: 1; }
+
+@media (min-width: 768px) {
+  .navbar.fixed-left {
+    bottom: 0;
+    width: 232px;
+    flex-flow: column nowrap;
+    align-items: flex-start; }
+  .navbar.fixed-left .navbar-collapse {
+    flex-grow: 0;
+    flex-direction: column;
+    width: 100%; }
+  .navbar.fixed-left .navbar-collapse .navbar-nav {
+    flex-direction: column;
+    width: 100%; }
+  .navbar.fixed-left .navbar-collapse .navbar-nav .nav-item {
+    width: 100%; }
+  .navbar.fixed-left .navbar-collapse .navbar-nav .nav-item .dropdown-menu {
+    top: 0; } }
+
+@media (min-width: 768px) {
+  .navbar.fixed-left {
+    right: auto; }
+  .navbar.fixed-left .navbar-nav .nav-item .dropdown-toggle:after {
+    border-top: .3em solid transparent;
+    border-left: .3em solid;
+    border-bottom: .3em solid transparent;
+    border-right: none;
+    vertical-align: baseline; }
+  .navbar.fixed-left .navbar-nav .nav-item .dropdown-menu {
+    left: 100%; } }
+
+/* custom style (override bootstrap)*/
+.bg-primary {
+  background-color: rgba(255, 255, 255, 0) !important; }
+
+.navbar-dark .navbar-brand {
+  color: #000000; }
+
+.navbar-dark .navbar-nav .nav-link {
+  color: #000000; }
+
+.navbar-brand img {
+  height: 80px; }
+
+header > nav {
+  letter-spacing: 0.175rem;
+  will-change: transform;
+  margin-left: 2.1rem;
+  margin-top: 0; }

@@ -1,0 +1,36 @@
+.section-features {
+    margin-top: -5rem;
+
+    @include respond(tab-port) {
+        padding: 10rem 0;
+    }
+}
+
+.section-shop {
+    padding: 0 0 10rem 0;
+    background-image: linear-gradient(to right bottom,
+        rgba($color-white, 0.7),
+        rgba($color-white, 0.7)),
+        url(../img/texture.jpg);
+    background-size: cover;
+    margin-bottom: -20rem;
+}
+
+.section-form {
+    padding: 10rem;
+    background-color: $color-white;
+    background-image: url(../img/caramel_drops_2.jpg);
+    background-position: center;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+.section-stories {
+    position: relative;
+    padding: 15rem 0;
+
+    @include respond(tab-port) {
+        padding: 10rem 0;
+    }
+}
+

@@ -1,0 +1,48 @@
+.footer {
+    //height: 11rem;
+    padding: 1rem;
+    margin-top: 1rem;
+    background-color: $color-secondary;
+    color: $color-white;
+    font-family: $font-lato-bold;
+    font-weight: 300;
+    font-size: 2rem;
+
+
+    &__address {
+        font-family: $font-lato-bold;
+        font-weight: 300;
+        font-size: 1.4rem;
+
+        &--item {
+            display: block;
+            font-style: normal;
+
+            & a {
+                text-decoration: none;
+                color: $color-white;
+            }
+        }
+    }
+
+    &__social {
+        font-size: 2rem;
+
+        &--link {
+            text-align: center;
+            display: inline-block;
+            line-height: 4rem;
+            width: 4rem;
+            background-color: $color-white;
+            border-radius: 50%;
+            text-decoration: none;
+            color: $color-secondary;
+        }
+
+        &--copy {
+            padding-top: 1rem;
+            display: block;
+            font-size: 1rem;
+        }
+    }
+}
