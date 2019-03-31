@@ -1,0 +1,22 @@
+{
+  "name": "hulaj_site",
+  "version": "1.0.0",
+  "description": "",
+  "main": "js.js",
+  "scripts": {
+    "compile:scss": "node-sass sass/main.scss style.css -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/androiduserpl/hulaj_site.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/androiduserpl/hulaj_site/issues"
+  },
+  "homepage": "https://github.com/androiduserpl/hulaj_site#readme",
+  "devDependencies": {
+    "node-sass": "^4.11.0"
+  }
+}
