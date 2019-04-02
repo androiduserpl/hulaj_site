@@ -6,9 +6,9 @@
     box-sizing: inherit;
 }
 
-//body {
-//    background-color: $color-background;
-//}
+body {
+    background-repeat: no-repeat;
+}
 
 section {
     height: 100vh;
@@ -16,7 +16,14 @@ section {
 
 article {
     padding: 3.375rem 3rem 3.375rem 15rem;
+
+    figure {
+        background-size: contain;
+        background-position: left center;
+        flex: 1 1;
+    }
 }
+
 
 #nr01 {
     background-color: $color-section-01;
@@ -24,7 +31,7 @@ article {
 
     img {
         display: block;
-        height: 60vh;
+//        height: 60vh;
         max-width: 100%;
     }
 }

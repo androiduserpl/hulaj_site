@@ -7,18 +7,24 @@
   padding: 0;
   box-sizing: inherit; }
 
+body {
+  background-repeat: no-repeat; }
+
 section {
   height: 100vh; }
 
 article {
   padding: 3.375rem 3rem 3.375rem 15rem; }
+  article figure {
+    background-size: contain;
+    background-position: left center;
+    flex: 1 1; }
 
 #nr01 {
   background-color: #363988;
   color: #ffffff; }
   #nr01 img {
     display: block;
-    height: 60vh;
     max-width: 100%; }
 
 #nr02 {
