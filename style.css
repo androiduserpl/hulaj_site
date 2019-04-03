@@ -14,18 +14,21 @@ section {
   height: 100vh; }
 
 article {
-  padding: 3.375rem 3rem 3.375rem 15rem; }
+  padding: 3.375rem 3rem 3.375rem 15rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%; }
   article figure {
-    background-size: contain;
-    background-position: left center;
-    flex: 1 1; }
+    flex: 1 1;
+    background-position: center top;
+    background-size: auto 100%; }
+    article figure img {
+      display: none; }
 
 #nr01 {
   background-color: #363988;
   color: #ffffff; }
-  #nr01 img {
-    display: block;
-    max-width: 100%; }
 
 #nr02 {
   background-color: #7b3688; }
