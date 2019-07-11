@@ -11,7 +11,10 @@ body {
   background-repeat: no-repeat; }
 
 section {
-  height: 100vh; }
+  height: 100vh;
+  width: 100%;
+  background-size: contain;
+  background-position: center center; }
 
 article {
   padding: 3.375rem 3rem 3.375rem 15rem;
@@ -19,12 +22,13 @@ article {
   flex-direction: column;
   justify-content: space-between;
   height: 100%; }
-  article figure {
-    flex: 1 1;
-    background-position: center top;
-    background-size: auto 100%; }
-    article figure img {
-      display: none; }
+
+figure {
+  flex: 1 1 0%;
+  background-position: center left;
+  background-size: contain; }
+  figure img {
+    display: none; }
 
 #nr01 {
   background-color: #363988;
@@ -109,3 +113,14 @@ header > nav {
   will-change: transform;
   margin-left: 2.1rem;
   margin-top: 0; }
+
+.art-top {
+  padding-bottom: 0px; }
+  .art-top figure {
+    background-position: center bottom; }
+
+.description {
+  margin-left: 0px;
+  max-width: 30rem;
+  margin: 1.6875rem 2rem 0px;
+  flex: 0 0 0%; }

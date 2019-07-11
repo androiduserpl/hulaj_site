@@ -12,23 +12,26 @@ body {
 
 section {
     height: 100vh;
+    width: 100%;
+    background-size: contain;
+    background-position: center center;
 }
 
 article {
-    padding: 3.375rem 3rem 3.375rem 15rem;
+    padding: 3.375rem 3rem 3.375rem 15rem; // & przeniesc przy RWD
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     height: 100%;
+}
 
-    figure {
-        flex: 1 1;
-        background-position: center top;
-        background-size: auto 100%;
+figure {
+    flex: 1 1 0%;
+    background-position: center left;
+    background-size: contain;
 
-        img {
-            display: none;
-        }
+    img {
+        display: none;
     }
 }
 
