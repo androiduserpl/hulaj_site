@@ -1,34 +1,44 @@
-.header {
-    &__slider {
-        position: relative;
-        overflow: hidden;
-
-        &--slide {
-            height: 60vh;
-            width: 100%;
-            background-size: cover;
-            background-position: center;
-            display: inline-block;
-            overflow: hidden;
-        }
+@media screen and (min-height: 400px) and (min-width: 900px) {
+    header {
+        top: 2.9rem;
+        height: calc(100vh - 6rem);
+        flex-direction: column;
+        align-items: flex-start;
+        z-index: 0;
+        position: fixed;
+        will-change: transform;
+        left: 0;
+        right: 0;
+        pointer-events: none;
+        padding: 0 0 0 2rem;
+        margin: 0 auto;
+        max-width: 68rem;
     }
 }
 
-#slide-1 {
-    background-image: url(../img/coconut_slajder.jpg);
+header {
+    padding: 0.84375rem 2rem;
+    z-index: 10;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    min-height: 5.05rem;
+    align-items: center;
+
+    img {
+        width: 175.8px;
+        height: 45px;
+    }
 }
 
-#slide-2 {
-    background-image: url(../img/rose_slajder.jpg);
-}
+.logo {
+    z-index: 10;
+    margin-right: 3rem;
+    margin-left: -5px;
 
-#slide-3 {
-    background-image: url(../img/vanilla_slajder.jpg);
-}
-
-.slick-dots {
-    position: relative;
-    bottom: 4rem;
-    display: inline-block;
-    right: -45rem;
+    a {
+        display: block;
+        border: none;
+        position: relative
+    }
 }
