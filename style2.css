@@ -1,0 +1,1261 @@
+/* @import must be at top of file, otherwise CSS will not work */
+@import url("//hello.myfonts.net/count/35368c");
+
+
+@font-face {
+    font-family: 'TTNorms-Bold';
+    src: url('webfonts/35368C_1_0.eot');
+    src: url('webfonts/35368C_1_0.eot?#iefix') format('embedded-opentype'), url('webfonts/35368C_1_0.woff2') format('woff2'), url('webfonts/35368C_1_0.woff') format('woff'), url('webfonts/35368C_1_0.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'TTNorms-BoldItalic';
+    src: url('webfonts/35368C_4_0.eot');
+    src: url('webfonts/35368C_4_0.eot?#iefix') format('embedded-opentype'), url('webfonts/35368C_4_0.woff2') format('woff2'), url('webfonts/35368C_4_0.woff') format('woff'), url('webfonts/35368C_4_0.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'TTNorms-Italic';
+    src: url('webfonts/35368C_9_0.eot');
+    src: url('webfonts/35368C_9_0.eot?#iefix') format('embedded-opentype'), url('webfonts/35368C_9_0.woff2') format('woff2'), url('webfonts/35368C_9_0.woff') format('woff'), url('webfonts/35368C_9_0.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'TTNorms-Medium';
+    src: url('webfonts/35368C_D_0.eot');
+    src: url('webfonts/35368C_D_0.eot?#iefix') format('embedded-opentype'), url('webfonts/35368C_D_0.woff2') format('woff2'), url('webfonts/35368C_D_0.woff') format('woff'), url('webfonts/35368C_D_0.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'TTNorms-Regular';
+    src: url('webfonts/35368C_F_0.eot');
+    src: url('webfonts/35368C_F_0.eot?#iefix') format('embedded-opentype'), url('webfonts/35368C_F_0.woff2') format('woff2'), url('webfonts/35368C_F_0.woff') format('woff'), url('webfonts/35368C_F_0.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'TTNorms-MediumItalic';
+    src: url('webfonts/35368C_10_0.eot');
+    src: url('webfonts/35368C_10_0.eot?#iefix') format('embedded-opentype'), url('webfonts/35368C_10_0.woff2') format('woff2'), url('webfonts/35368C_10_0.woff') format('woff'), url('webfonts/35368C_10_0.ttf') format('truetype');
+}
+
+@charset "UTF-8";
+/* Basic Reset, nothing complex */
+@import url("//hello.myfonts.net/count/35368c");
+
+*,
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    -webkit-font-smoothing: antialiased;
+    font-weight: normal;
+    background-repeat: no-repeat;
+}
+
+html {
+    font-size: 100%;
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+}
+
+@media screen and (min-width: 900px) {
+
+    /* Bump up font sizes  */
+    html {
+        font-size: 112.5%;
+    }
+}
+
+@media screen and (min-width: 1300px) {
+
+    /* Bump up font sizes a bit more  */
+    html {
+        font-size: 125%;
+    }
+}
+
+@font-face {
+    font-family: 'TTNorms-Bold';
+    src: url("webfonts/35368C_1_0.eot");
+    src: url("webfonts/35368C_1_0.eot?#iefix") format("embedded-opentype"), url("webfonts/35368C_1_0.woff2") format("woff2"), url("webfonts/35368C_1_0.woff") format("woff"), url("webfonts/35368C_1_0.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: 'TTNorms-BoldItalic';
+    src: url("webfonts/35368C_4_0.eot");
+    src: url("webfonts/35368C_4_0.eot?#iefix") format("embedded-opentype"), url("webfonts/35368C_4_0.woff2") format("woff2"), url("webfonts/35368C_4_0.woff") format("woff"), url("webfonts/35368C_4_0.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: 'TTNorms-Italic';
+    src: url("webfonts/35368C_9_0.eot");
+    src: url("webfonts/35368C_9_0.eot?#iefix") format("embedded-opentype"), url("webfonts/35368C_9_0.woff2") format("woff2"), url("webfonts/35368C_9_0.woff") format("woff"), url("webfonts/35368C_9_0.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: 'TTNorms-Medium';
+    src: url("webfonts/35368C_D_0.eot");
+    src: url("webfonts/35368C_D_0.eot?#iefix") format("embedded-opentype"), url("webfonts/35368C_D_0.woff2") format("woff2"), url("webfonts/35368C_D_0.woff") format("woff"), url("webfonts/35368C_D_0.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: 'TTNorms-Regular';
+    src: url("webfonts/35368C_F_0.eot");
+    src: url("webfonts/35368C_F_0.eot?#iefix") format("embedded-opentype"), url("webfonts/35368C_F_0.woff2") format("woff2"), url("webfonts/35368C_F_0.woff") format("woff"), url("webfonts/35368C_F_0.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: 'TTNorms-MediumItalic';
+    src: url("webfonts/35368C_10_0.eot");
+    src: url("webfonts/35368C_10_0.eot?#iefix") format("embedded-opentype"), url("webfonts/35368C_10_0.woff2") format("woff2"), url("webfonts/35368C_10_0.woff") format("woff"), url("webfonts/35368C_10_0.ttf") format("truetype");
+}
+
+body {
+    background: #F6F5F3;
+    font-family: TTNorms-Regular, sans-serif;
+    font-size: 1rem;
+    position: relative;
+    line-height: 1.6875rem;
+    color: #333;
+}
+
+:focus:not(:focus-visible) {
+    outline: none;
+}
+
+/* Apply consistent vertical spacing to all elements */
+* + * {
+    margin-top: 1.6875rem;
+}
+
+/* And then just cancel it out where it's not needed */
+article li + li,
+audio,
+br,
+nav,
+nav ul,
+nav li,
+.meta li,
+fieldset > *,
+footer p,
+section,
+.posted,
+h3 + p,
+.archives h1,
+h4 + p,
+.caption,
+figcaption,
+cite,
+.article-thumb,
+.article-thumb h3,
+input,
+.instagram li,
+.instagram li > *,
+.bookplug p,
+.plugs > *,
+.adr,
+#goodies h2 a,
+.journal-footer > *,
+#fusionads,
+.fusion-poweredby,
+.covers .grid > * + * {
+    margin-top: 0;
+}
+
+/* Typography + base HTML elements */
+a {
+    color: inherit;
+    font-weight: normal;
+    text-decoration: none;
+    border-bottom: 1px solid #DAAF2B;
+    transition: all 0.2s ease-in-out;
+}
+
+#default a {
+    border-bottom-color: inherit;
+}
+
+a:hover {
+    color: #000;
+    border-bottom-color: inherit;
+}
+
+h2.list-head a,
+.socials a,
+.backanforth a,
+.article-thumbs a,
+.fusion a,
+.bookplug a,
+.archives h4 a,
+.instagram li a {
+    border-bottom: none;
+}
+
+/* Medium */
+a,
+p.posted,
+.org {
+    font-family: TTNorms-Medium, sans-serif;
+    font-weight: normal;
+}
+
+a .insta-info {
+    font-family: TTNorms-Regular, sans-serif;
+}
+
+/* Bold */
+h1,
+h2,
+h2 a,
+h3,
+h4,
+h4,
+strong,
+.logo,
+.meta span,
+cite,
+.backanforth a span,
+nav a.active {
+    font-family: TTNorms-Bold, sans-serif;
+    font-weight: normal;
+}
+
+/* Italic */
+.caption,
+figcaption {
+    font-family: TTNorms-Italic, sans-serif;
+    font-weight: normal;
+    text-align: center;
+    font-size: 0.875rem;
+}
+
+h1 {
+    font-size: 1.848rem;
+    letter-spacing: -0.05rem;
+    line-height: 1;
+    margin-bottom: 1.6875rem;
+    color: #444;
+}
+
+h1.large {
+    font-size: 2.848em;
+    letter-spacing: -0.1rem;
+}
+
+h1:after,
+#default h2:after {
+    content: "";
+    width: 1.6875rem;
+    height: 2px;
+    background: #000;
+    display: block;
+    margin: 1.6875rem 0 0 0;
+}
+
+h2,
+.posted,
+.archives h3 {
+    font-size: 1rem;
+    text-transform: uppercase;
+    letter-spacing: 0.1rem;
+}
+
+h2.list-head {
+    text-transform: none;
+    letter-spacing: 0;
+    font-size: 1.6875rem;
+}
+
+h2.list-head:after {
+    height: 0;
+    margin: 0;
+}
+
+#goodies h2 a {
+    border-bottom: none;
+    background: #DAAF2B;
+    color: #fff;
+    display: inline-block;
+    padding: 0 0.84375rem;
+    border-radius: 4px;
+    font-size: 0.875rem;
+}
+
+.invert h1:after,
+.invert h2:after,
+#default .invert h2:after {
+    background: #fff;
+}
+
+p.posted {
+    font-size: 0.75rem;
+}
+
+* + h2 {
+    margin-top: 3.37rem;
+}
+
+h2,
+h3,
+h4 {
+    font-size: 1rem;
+}
+
+.macy h3 {
+    line-height: 1.2;
+}
+
+fieldset {
+    border: none;
+    /*
+  display: flex;
+  align-items: center;
+*/
+}
+
+fieldset > * {
+    line-height: 3.375rem;
+    vertical-align: top;
+    border: 0;
+}
+
+input {
+    font-size: 1rem;
+    font-family: TTNorms-Regular, sans-serif;
+    border-radius: 8px;
+}
+
+label {
+    margin-right: 1rem;
+}
+
+.search input[type="text"] {
+    padding: 0 0.5rem;
+    background-color: #fff;
+    border-radius: 8px 0 0 8px;
+    width: 50%;
+}
+
+button {
+    padding: 0 1rem;
+    background: #DAAF2B;
+    margin-left: -0.5rem;
+}
+
+input + button {
+    border-radius: 0 8px 8px 0;
+}
+
+button svg {
+    vertical-align: middle;
+    fill: #fff;
+    height: 1.3rem;
+    width: 1.3rem;
+}
+
+blockquote p {
+    border-left: 2px solid orange;
+    padding-left: 1.2rem;
+    margin-left: -1.2rem;
+}
+
+pre {
+    border-radius: 4px;
+    background: #333;
+    color: #fff;
+    padding: 1rem;
+    overflow: auto;
+}
+
+hr {
+    height: 1px;
+    border: 0;
+    background: rgba(0, 0, 0, 0.2);
+}
+
+/* Layout */
+header {
+    padding: 0.84375rem 2rem;
+    z-index: 10;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    min-height: 5.05rem;
+    align-items: center;
+}
+
+#journal header {
+    background: #F6F5F3;
+}
+
+.logo {
+    margin-right: 3rem;
+    z-index: 100;
+    margin-left: -5px;
+}
+
+html:not(#default) .logo .cls-1 {
+    fill: #DAAF2B;
+}
+
+.logo svg {
+    height: 1.25rem;
+    height: 2.25rem;
+    width: auto;
+    fill: currentColor;
+}
+
+.logo img {
+    height: 1.6875rem;
+    width: auto;
+}
+
+.icon {
+    vertical-align: text-bottom;
+}
+
+/* nav */
+header > nav {
+    text-transform: uppercase;
+    letter-spacing: 0.175rem;
+    font-size: 0.875rem;
+    margin-top: 0.2rem;
+}
+
+.menu {
+    display: none;
+}
+
+.menu svg {
+    fill: currentColor;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.logo a,
+nav a {
+    display: block;
+    border: none;
+    position: relative;
+}
+
+.nav-el a,
+.nav-el p,
+.nav-el svg {
+    transition: color 80ms ease-in-out;
+}
+
+.invert,
+.invert a,
+.invert .description {
+    color: #fff;
+}
+
+nav li + li {
+    margin-left: 2rem;
+}
+
+nav a {
+    display: inline-block;
+}
+
+nav a.active:before {
+    content: "";
+    width: 4px;
+    height: 4px;
+    border: 3px solid #DAAF2B;
+    position: absolute;
+    left: -0.75rem;
+    border-radius: 50%;
+}
+
+/* Slides */
+section {
+    width: 100%;
+    background-size: contain;
+    background-position: center center;
+}
+
+#default section {
+    height: 100vh;
+}
+
+article {
+    padding: 3.375rem 2rem;
+}
+
+#default article {
+    padding: 3.375rem 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+}
+
+#default #contact article {
+    padding: 3.375rem 2rem;
+}
+
+#default article figure {
+    flex: 1 1;
+    background-position: center top;
+    background-size: auto 100%;
+}
+
+#default figure img {
+    display: none;
+}
+
+.description {
+    max-width: 30rem;
+    margin: 1.6875rem 2rem 0 2rem;
+    flex: 0 0;
+}
+
+article.top {
+    padding-bottom: 0;
+}
+
+article.top .description {
+    order: -1;
+    margin-top: 0.33rem;
+}
+
+#default article.top figure {
+    background-position: center bottom;
+}
+
+article.center {
+    justify-content: center;
+}
+
+cite,
+.caption,
+figcaption {
+    color: #444;
+    font-style: normal;
+}
+
+footer {
+    padding: 3rem;
+    font-size: 0.75rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.socials a {
+    display: inline-block;
+    padding: 0.25rem;
+}
+
+.socials svg {
+    fill: currentColor;
+    opacity: 0.4;
+    transition: all 0.2s ease-in-out;
+}
+
+.socials svg:hover {
+    opacity: 1;
+}
+
+.socials svg.twitter:hover {
+    fill: #55ACEE;
+}
+
+.socials svg.facebook:hover {
+    fill: #45619D;
+}
+
+.socials svg.instagram:hover {
+    fill: #F28D4C;
+}
+
+.socials svg.dribbble:hover {
+    fill: #E74D89;
+}
+
+/* Grids */
+.grid,
+.instagram ul {
+    display: grid;
+    grid-gap: 3.375rem;
+}
+
+.grid:after,
+.instagram ul:after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.grid > *,
+.instagram ul > * {
+    width: 50%;
+    padding: 0 1rem 1rem 0;
+    float: left;
+    /* basic fallback */
+}
+
+@supports (display: grid) {
+
+    .grid > *,
+    .instagram ul > * {
+        width: auto;
+        padding: 0;
+    }
+}
+
+#contact .grid {
+    grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
+}
+
+.centered article > * {
+    width: 100%;
+    max-width: 33rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.centered article img,
+.centered article > .video,
+.centered article > .video iframe {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+.video p:first-child {
+    position: relative;
+    padding-bottom: 56.25%;
+    /* 16:9 */
+    padding-top: 25px;
+    height: 0;
+}
+
+.video p iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.centered article img.icon {
+    display: inline-block;
+}
+
+.centered article p.img,
+.centered article figure,
+.centered article .instagram {
+    max-width: none;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.centered article p.img img,
+.centered article figure img {
+    max-width: 100%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.fr {
+    float: right;
+    height: auto;
+    margin: 0.84375rem 0 0.84375rem 1.6875rem;
+}
+
+.fl {
+    float: left;
+    height: auto;
+    margin: 0.84375rem 1.6875rem 0.84375rem 0;
+}
+
+.meta {
+    list-style-type: none;
+}
+
+.meta span {
+    width: 7rem;
+    display: inline-block;
+    text-transform: uppercase;
+    letter-spacing: 0.15rem;
+    font-size: 0.75rem;
+}
+
+.twitter img {
+    height: 1rem;
+    width: auto;
+    vertical-align: -10%;
+}
+
+.backanforth {
+    border-top: 1px solid rgba(0, 0, 0, 0.2);
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: baseline;
+    margin-bottom: 3.375rem;
+}
+
+.backanforth > * {
+    flex: 1 0 50%;
+}
+
+.previous a {
+    border-right: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.backanforth a {
+    padding: 1.6875rem 2rem;
+    text-align: center;
+    width: 100%;
+    display: block;
+}
+
+.backanforth a span {
+    letter-spacing: 0.15rem;
+    font-size: 0.75rem;
+    text-transform: uppercase;
+    display: block;
+}
+
+.previous a {
+    background-image: url(/images/prev.svg);
+    background-position: left center;
+}
+
+.next a {
+    background-image: url(/images/next.svg);
+    background-position: right center;
+}
+
+.previous a:hover,
+.next a:hover {
+    background-color: #f9f2e3;
+}
+
+.covers .grid {
+    transition: grid-template-columns 0.2s ease-in-out;
+    grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
+    grid-gap: 0;
+    line-height: 0;
+}
+
+.covers img {
+    max-width: 100%;
+    height: auto;
+}
+
+.covers a {
+    border-bottom: 0;
+}
+
+.macy * + * {
+    margin-top: 0;
+}
+
+.macy a {
+    display: block;
+    border-bottom: none;
+    border-radius: 6px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.15);
+    padding: 1rem 0 0.6rem 0;
+    background: #fff;
+    transition: all 0.2s ease-in-out;
+}
+
+.macy a:focus,
+.macy a:hover {
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.05);
+    transform: translate(0, -5px);
+}
+
+.macy img {
+    border-radius: 6px 6px 0 0;
+    margin-top: -1rem;
+}
+
+.macy h3,
+.macy p {
+    padding: 0 1rem;
+}
+
+.macy img {
+    max-width: 100%;
+    height: auto;
+}
+
+.macy img.icon {
+    width: 18px;
+    height: auto;
+}
+
+.insta-info {
+    font-size: 0.875rem;
+    line-height: 1.6;
+}
+
+/*
+.carbon-poweredby {
+	color: rgba(0,0,0,0.5);
+	font-size: 0.75rem;
+}
+
+#fusionads:after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.fusion span {
+  display: block;
+}
+*/
+.plugs img {
+    float: left;
+    width: 130px;
+    height: auto;
+    margin-right: 1rem;
+    margin-bottom: 1.6875rem;
+}
+
+.bookplug p {
+    margin: 0 0 0 146px;
+}
+
+.archives h1 {
+    float: left;
+    width: 8rem;
+    font-family: TTNorms-Regular, sans-serif;
+}
+
+.archives h1:after {
+    background: none;
+}
+
+.archives h3 {
+    width: 5rem;
+    margin: 0 0 0 9rem;
+}
+
+.archives h4 {
+    margin: 0 0 0 13rem;
+}
+
+.archives h3 + h4 {
+    margin-top: -1.6865rem;
+}
+
+.archives h4 span {
+    width: 2rem;
+    float: left;
+}
+
+.archives h4 a {
+    margin: 0 0 0 2.5rem;
+    display: block;
+}
+
+.archives h4 a {
+    margin: 0 0 0 2.5rem;
+    display: block;
+    border-bottom: none;
+}
+
+.archives h4 a b {
+    border-bottom: 1px solid #DAAF2B;
+}
+
+.archives h4 a:hover b {
+    border-bottom-color: inherit;
+}
+
+.archives hr:first-of-type {
+    display: none;
+}
+
+.archives hr {
+    clear: both;
+    margin-bottom: 1.6875rem;
+}
+
+.org {
+    text-transform: uppercase;
+    letter-spacing: 0.1rem;
+}
+
+.journal-footer {
+    grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
+}
+
+/*Troika*/
+.troika-cover audio {
+    background-color: #000;
+}
+
+audio {
+    max-height: 100%;
+    width: 100%;
+    max-width: 60rem;
+}
+
+.archives h4 + h1:before,
+.archives h4 + h1:after {
+    content: "";
+    display: table;
+    width: 100%;
+    clear: left;
+    border-bottom: 1px solid black;
+    height: 1.6875rem;
+    outline: 1px solid red;
+}
+
+/*     Concise menu */
+@media only screen and (max-width: 700px) {
+    .menu {
+        display: block;
+        height: 35px;
+        position: relative;
+        z-index: 100;
+    }
+
+    nav ul,
+    nav:active ul {
+        display: none;
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        padding: 5rem 2rem 2rem 2rem;
+        background: #fff;
+        right: 0;
+        font-size: 1.125rem;
+        flex-direction: column;
+        justify-content: center;
+        text-align: right;
+        box-shadow: 0 1rem 1rem rgba(0, 0, 0, 0.1);
+    }
+
+    nav a {
+        mix-blend-mode: normal;
+    }
+
+    nav li + li {
+        margin-left: 0;
+    }
+
+    nav:hover ul {
+        display: block;
+    }
+
+    .archives h1 {
+        float: none;
+        width: auto;
+    }
+
+    .archives h3 {
+        margin: 0;
+    }
+
+    .archives h4 {
+        margin: 0 0 0 5rem;
+    }
+}
+
+@media screen and (min-width: 600px) {
+
+    /*
+  .plugs {
+    grid-template-columns:  1fr 1fr;
+  }
+
+*/
+    .plugs img {
+        float: none;
+        display: block;
+        margin: 0 auto 1.6875rem auto;
+    }
+
+    .plugs > div {
+        text-align: center;
+    }
+
+    .bookplug p {
+        margin: 0;
+    }
+}
+
+@media screen and (min-width: 800px) {
+    .plugs {
+        display: block;
+    }
+
+    .plugs > div {
+        text-align: left;
+    }
+
+    .plugs img {
+        float: left;
+        margin: 0 1rem 1.6875rem 0;
+    }
+
+    .plugs div + div {
+        margin-top: 1.6875rem;
+    }
+}
+
+@media screen and (min-width: 900px) and (min-height: 400px) {
+
+    header,
+    article,
+    footer {
+        margin: 0 auto;
+        max-width: 68rem;
+    }
+
+    header,
+    footer {
+        position: fixed;
+        will-change: transform;
+        left: 0;
+        right: 0;
+        pointer-events: none;
+        padding: 0 0 0 2rem;
+    }
+
+    header > *,
+    footer > * {
+        pointer-events: auto;
+    }
+
+    header {
+        top: 2.9rem;
+        height: calc(100vh - 6rem);
+        flex-direction: column;
+        align-items: flex-start;
+        z-index: 0;
+    }
+
+    footer {
+        z-index: 1;
+        bottom: 1.6875rem;
+        left: 0;
+        right: 0;
+    }
+
+    footer > * {
+        margin-left: 2.1rem;
+        width: 8rem;
+    }
+
+    #journal header {
+        background: none;
+    }
+
+    .logo {
+        z-index: 10;
+    }
+
+    nav ul {
+        flex-direction: column;
+    }
+
+    nav a.active:before {
+        top: 0.45rem;
+        left: -1rem;
+    }
+
+    header > nav {
+        position: fixed;
+        will-change: transform;
+        top: 8.75rem;
+        width: 8rem;
+        z-index: 1;
+        margin-left: 2.1rem;
+        margin-top: 0;
+    }
+
+    nav li + li {
+        margin-left: 0;
+    }
+
+    article {
+        padding: 1.6875rem 3rem 1.6875rem 15rem;
+    }
+
+    #default article,
+    #default #contact article {
+        padding: 3.375rem 3rem 3.375rem 15rem;
+    }
+
+    header + section > article {
+        padding-top: 3.375rem;
+        margin-top: 0;
+    }
+
+    #default article figure {
+        background-size: contain;
+        background-position: left center;
+    }
+
+    article.top {
+        padding: 1rem 3rem 0 15rem;
+    }
+
+    .description {
+        margin-left: 0;
+    }
+}
+
+/*  Folio Slide Specifics */
+.intro-head {
+    width: 100%;
+    height: auto;
+    max-width: 487px;
+    display: block;
+}
+
+#intro {
+    background-color: #FFE02A;
+}
+
+#duckduckgo {
+    background-color: #008fdc;
+}
+
+#lifecraft {
+    background-color: #DAEEFE;
+}
+
+#spotify {
+    background-color: #101010;
+}
+
+#handbook {
+    background-color: #FFE02A;
+}
+
+#canva {
+    background-color: #26bfca;
+}
+
+#ahoy-1,
+#ahoy-2 {
+    background-color: #fff;
+}
+
+#ahoy-2 article {
+    padding-top: 0;
+}
+
+#ahoy-2 article img {
+    display: block;
+    max-width: 100%;
+}
+
+#default #ahoy-2 {
+    height: auto;
+}
+
+#jilt {
+    background-color: #D2F3FD;
+    background-image: url(../svg/jilt-logo-landscape.svg);
+    background-size: auto 100vh;
+}
+
+#curl {
+    background-color: #003B8F;
+}
+
+#curl article {
+    background-image: url(../svg/curl-top.svg), url(../svg/curl-bottom.svg);
+    background-position: center top, center bottom;
+    background-size: 90% auto;
+}
+
+#curl article figure {
+    background-size: 100% auto;
+    background-position: center center;
+}
+
+#duckduckgo article figure {
+    background-position: 15% bottom;
+    background-size: 130% auto;
+}
+
+#marel {
+    background: #fff;
+}
+
+#default #marel article {
+    padding-top: 0;
+}
+
+#marel article {
+    background-position: center top;
+    background-size: auto 80%;
+}
+
+#default section#about,
+#default section#contact {
+    min-height: auto;
+    height: auto;
+}
+
+#contact {
+    background-color: #FAC800;
+}
+
+#instagram {
+    background-color: #fff;
+}
+
+#about article {
+    justify-content: flex-start;
+}
+
+.clients {
+    display: grid;
+    padding: 1.685rem;
+    grid-template-columns: repeat(auto-fit, minmax(6rem, 1fr));
+    overflow: hidden;
+}
+
+.clients > * + * {
+    margin-top: 0;
+}
+
+.clients img {
+    max-width: 100%;
+    vertical-align: middle;
+    display: inline;
+}
+
+@media screen and (min-width: 900px) and (min-height: 400px) {
+    #duckduckgo article.top {
+        padding: 3rem 0 0 10rem;
+    }
+
+    #duckduckgo .description {
+        margin-left: 5rem;
+    }
+
+    #duckduckgo article figure {
+        background-position: left bottom;
+        background-size: contain;
+    }
+
+    .clients {
+        display: grid;
+        padding: 1.685rem;
+        grid-gap: 1.685rem;
+        grid-template-columns: repeat(auto-fit, minmax(10rem, 1fr));
+    }
+}

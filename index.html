@@ -1,81 +1,326 @@
+
 <!DOCTYPE html>
 <html lang="en" id="default">
+	<head>
+		<meta charset="utf-8">
+		<title>
+			Hicks
 
-<head>
-    <meta charset="UTF-8">
-    <!-- uzupelnic meta na jak najwiecej sie da -->
-    <title>Hulaj Studio</title>
+		</title>
 
-    <!-- Fonts -->
-    <link href="https://fonts.googleapis.com/css?family=Lato:300,700" rel="stylesheet">
+		<!--
 
-    <!-- Style -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link rel="stylesheet" href="style.css">
-</head>
+		hicks(design) v20!
 
-<header>
+		(I think it's version 20, I've sort of lost count these days)
 
-    <div class="logo nav-el invert">
-        <a href="/" title="Hulaj">
-            <title>logo</title>
-            <img src="img/logo.png" alt="">
-        </a>
+		Hello source code curious person from the INTERWEBS!
+		What you're doing is (in my opinion) the BEST way to learn and advance,
+		that is, viewing the source. It's how I learnt, and how I'm still learning.
+		So go ahead, dig away and ask any questions. (see the contact page)
+
+		Techniques used on this site are all in the public domain,
+		but the unique combination of Content, CSS and images are what make this site's design.
+
+		Please don't steal wholesale, thats all I'm saying.
+
+		Cheese is nice.
+
+		-->
+
+		<meta name="description" content="Hicks design things you see on screens, such as icons, interfaces and identities." />
+		<meta name="keywords" content="design,icons,screens,mobile,icondesign,illustration,logos,branding,interfaces,ui" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+		<!-- OpenSearch -->
+		<link rel="search" href="/opensearchdescription.xml" type="application/opensearchdescription+xml" title="Hicksdesign" />
+
+
+		<!-- OpenGraph -->
+		<meta property="og:site_name" content="Hicksdesign" />
+		<meta property="og:title" content="" />
+		<meta property="og:type" content="website" />
+		<meta property="og:image" content="https://hicksdesign.co.uk/images/ogicon.png" />
+		<meta property="og:locale" content="en_GB" />
+
+
+		<!-- Favicon -->
+		<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
+		<link rel="icon" href="favicon-coast.png" sizes="228x228">
+
+		<!-- Safari Pinned Tab -->
+		<link rel="mask-icon" href="/svg/pinned-tab.svg" color="#3f3f3f">
+
+		<!-- Windows 8+ Pinned Site -->
+		<meta name="msapplication-TileImage" content="/images/pinsite.png">
+		<meta name="msapplication-TileColor" content="#ffffff">
+		<meta name="application-name" content="Hicksdesign">
+
+		<!-- CSS -->
+		<!-- <link rel="stylesheet" href="/fonts/mastadoni.css" /> -->
+		<link rel="stylesheet" href="/css/style2.css" />
+
+		<!--[if lte IE 8]>
+
+		<![endif]-->
+
+		<!-- RSS Feeds -->
+		<link rel="alternate" type="application/rss+xml" title="Hicks Journal" href="https://hicksdesign.co.uk/feeds/rss/" />
+		<link rel="alternate" type="application/rss+xml" title="Troika Podcast by Hicks" href="https://www.hicksdesign.co.uk/troikarss" />
+
+	<!-- sorcery -->
+
+	    <script src="/js/jquery.js"></script>
+	    <script src="/js/inverty.js"></script>
+
+
+	</head>
+	<body>
+
+  	<header>
+  	<div class="logo nav-el"><a href="/" title="Hicks"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1106.4 283.2"><title>logo13</title><g id="Layer_2" data-name="Layer 2"><g id="Layer_1-2" data-name="Layer 1"><path d="M454.6,266.7H418.9V222.9H347.6v43.8H311.9V100.2h35.7v90.6h71.3V100.2h35.7Z"/><path d="M515.3,100.2h35.6V266.7H515.3Z"/><path d="M761.5,130l-22.6,22.6s-15.5-23.8-46.4-23.8-54.7,23.8-54.7,54.7,23.8,54.7,54.7,54.7,48.7-23.8,48.7-23.8L762.7,237s-23.8,33.3-70.2,33.3c-51.2,0-90.4-39.2-90.4-86.8s39.2-86.8,90.4-86.8C738.9,96.7,761.5,130,761.5,130Z"/><path d="M844.7,172.8l65.4-72.6h41.7l-61.9,69,66.6,97.5H914.9l-48.8-71.3-21.4,23.8v47.5H809V100.2h35.7Z"/><path d="M986.3,145.4c0-26.1,22.6-48.7,58.2-48.7s54.8,22.6,54.8,22.6l-21.5,22.6s-11.9-14.3-30.9-14.3c-14.3,0-22.6,8.3-22.6,17.8,0,30.9,82.1,13.1,82.1,72.6,0,29.7-22.6,52.3-63.1,52.3s-63-27.3-63-27.3l21.4-21.5s14.3,17.9,39.3,17.9c17.8,0,27.3-9.5,27.3-21.4C1068.3,187.1,986.3,204.9,986.3,145.4Z"/><path class="cls-1" d="M187.3,0a62.9,62.9,0,0,0-61.5,50.8,122.4,122.4,0,0,1,30.4,8.4,31.9,31.9,0,1,1,14.3,29.5,106.4,106.4,0,0,0-63-20.5,107.3,107.3,0,1,0,102.1,73.7,83.3,83.3,0,0,1-33.4,2.3,75,75,0,0,1,7,31.5,75.7,75.7,0,1,1-75.7-75.6,74.8,74.8,0,0,1,42.7,13.2l1.9,1.2a62,62,0,0,0,35.2,10.8A62.7,62.7,0,1,0,187.3,0Z"/><path class="cls-1" d="M107.5,129.9a45.9,45.9,0,1,0,45.9,45.8A45.9,45.9,0,0,0,107.5,129.9Zm0,64a18.2,18.2,0,1,1,18.2-18.2A18.2,18.2,0,0,1,107.5,193.9Z"/><path class="cls-1" d="M197.3,62.7a10.1,10.1,0,1,0-10,10A10.1,10.1,0,0,0,197.3,62.7Z"/></g></g></svg></a></div>
+
+  	<nav>
+  	<a href="#" class="menu nav-el"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="35" viewBox="0 0 24 35"><title>menu</title><path d="M19.533 16c.552 0 1 .448 1 1s-.448 1-1 1h-15.07c-.552 0-1-.448-1-1s.448-1 1-1h15.07zm0 7c.552 0 1 .448 1 1s-.448 1-1 1h-15.07c-.552 0-1-.448-1-1s.448-1 1-1h15.07zm0-14c.552 0 1 .448 1 1s-.448 1-1 1h-15.07c-.552 0-1-.448-1-1s.448-1 1-1h15.07z"/></svg></a>
+
+    	<ul>
+        <li class="nav-el"><a href="/" class="active">Work</a></li>
+        <li class="nav-el"><a href="/journal/" >Journal</a></li>
+        <li class="nav-el"><a href="/goodies" >Goodies</a></li>
+        <li class="nav-el"><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  </header>
+
+<!--
+    <section id="intro">
+    <article class="center">
+
+    <div class="description">
+
+      <img src="/svg/intro-head.svg" class="intro-head" alt="Reductive Design">
+
+    <p>We like taking complex concepts and reducing them into their simplest (but no simpler) form.</p>
+
+
+    <p>Add <strong>more</strong> by taking <strong>away</strong>.</p>
+
     </div>
+  </article>
+  </section>
+-->
 
-    <!-- Navigation -->
-    <!--<nav class="navbar navbar-expand-md navbar-dark bg-primary fixed-left">
-        <a class="navbar-brand" href><img src="logo.png" alt=""></a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
+    <section class="invert" id="duckduckgo">
+    <article class="top">
 
-        <div class="collapse navbar-collapse" id="navbar--left">
-            <ul class="navbar-nav">
-                <li class="nav-item">
-                    <a class="nav-link">Work</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link">Blog</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link">Gallery</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link">Contact</a>
-                </li>
-            </ul>
-        </div>
-    </nav>-->
-</header>
+           <figure style="background-image:url(/svg/track_icognito.svg)"><img src="/svg/track_icognito.svg" alt="An illustration of a man having bath, when a periscope appears in the water. He is being watched"></figure>
 
-<!-- sections -->
+    <div class="description">
+    <h2>DuckDuckGo</h2>
+    <p>A series of illustrations for <a href="https://duckduckgo.com/">DuckDuckGo</a> – telling the story of the alternative search engine’s unique privacy features</p>
+    </div>
+  </article>
+  </section>
 
-<section id="nr01">
-    <article class="art-top">
 
-        <figure style="background-image: url(img/img1.jpg)">
-            <img src="img/img1.jpg" alt="">
-        </figure>
-        <div class="description">
-            <h2>Ahoy Identity and UI</h2>
-            <p>Hicks provided a wide range of design services for the <a href="https://ahoyemail.com/">Ahoy email marketing platform</a>. Identity and UI design, HTML &amp; CSS prototyping and iconography.</p>
-        </div>
-    </article>
+  <section id="ahoy-1">
+    <article>
+
+           <figure style="background-image:url(/svg/ahoy.svg)"><img src="/svg/ahoy.svg" alt=""></figure>
+                <div class="description">
+    <h2>Ahoy Identity and UI</h2>
+    <p>Hicks provided a wide range of design services for the <a href="https://ahoyemail.com/">Ahoy email marketing platform</a>. Identity and UI design, HTML & CSS prototyping and iconography.</p>
+    </div>
+  </article>
 </section>
-<section id="nr02"></section>
-<section id="nr03"></section>
-<section id="nr04"></section>
-<section id="nr05"></section>
+
+<section id="ahoy-2">
+    <article>
+
+	    <figure>
+		   <img src="images/folio/ahoy/ahoy-screens.png" alt="ahoy-screens">
+	   </figure>
+
+  </article>
+</section>
 
 
-<body>
+    <section id="zip">
+    <article>
 
-    <!-- Scripts -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-    <script src="js.js"></script>
+           <figure style="background-image:url(/svg/zipmoney.svg)"><img src="/svg/zipmoney.svg" alt=""></figure>
+                <div class="description">
+    <h2>ZipMoney Iconset</h2>
+    <p>A multi-sized set of icons for the <a href=“https://zip.co/”>Zip</a> money service, ranging from small UI icons to large illustrative versions. All designed to harmonise with their new brand identity.</p>
+    </div>
+  </article>
+  </section>
+
+
+    <section id="lifecraft">
+
+      <article>
+
+        <figure style="background-image:url(/svg/lifecraft-logo.svg)"><img src="/svg/lifecraft-logo.svg" alt="Lifecraft logo is an illustration of a hot air balloon with a paper boat as the basket"></figure>
+
+
+    <div class="description">
+      <h2>LifeCraft Logo</h2>
+      <p>An identity for a team of crafters running craft workshops in Oxford and Marlow. Instead of a twee solution, the name and logo focuses on the sense of freedom that comes with making things by hand.</p>
+    </div>
+    </article>
+  </section>
+
+
+  <section id="marel">
+
+      <article style="background-image:url(/svg/marel2.svg)">
+
+        <figure><img src="/svg/marel2.svg" alt="Marel illustration showing a farm on a chip"></figure>
+
+    <div class="description">
+      <h2>Marel Future illustrations</h2>
+      <p>A series of illustrations imagining the products that <a href="https://marel.com/">Marel</a> will be making in 40 years time, such as food that can be grown in the home. Commissioned to decorate their new headquarters in Reykjavik.</p>
+    </div>
+    </article>
+  </section>
+
+
+    <section class="invert" id="spotify">
+
+      <article>
+              <figure style="background-image:url(/svg/spotify.svg)"><img src="/svg/spotify.svg" alt="Spotify icons"></figure>
+
+    <div class="description">
+
+      <h2>Spotify Iconography</h2>
+        <p>Hicks created a new icon set for the music subscription service Spotify. <a href="https://hicksdesign.co.uk/journal/spotify">Read the full case study</a> about the project in the Journal.</p>
+    </div>
+    </article>
+  </section>
+
+      <section id="jilt">
+      <article>
+      <figure><img src="/svg/jilt-logo-landscape.svg" alt="Jilt Identity"></figure>
+
+    <div class="description">
+      <h2>Jilt Identity</h2>
+        <p><a href="https://jilt.com/">Jilt</a> is a service to help ecommerce stores recover sales due to cart abandonment. The metaphor of separation was used in the broken heart logo (made of two 'J's) and the split in the lowercase i.</p>
+    </div>
+    </article>
+  </section>
+
+    <section class="invert" id="curl">
+      <article>
+      <figure style="background-image:url(/svg/Curl-Outline-Horizontal.svg)"><img src="/svg/Curl-Outline-Horizontal.svg" alt="Curl Logo"></figure>
+
+    <div class="description">
+      <h2>Curl Logo</h2>
+        <p><a href="https://paywithcurl.com/">Curl</a> is a way of avoiding payment cards entirely and enables transactions via username. This was brought out in the @ symbol logomark.</p>
+    </div>
+    </article>
+  </section>
+
+<!--
+    <section id="anz">
+      <article>
+      <figure style="background-image:url(/svg/ANZ.svg)"><img src="/svg/ANZ.svg" alt="ANZ icons"></figure>
+    <div class="description">
+      <h2>ANZ Iconography</h2>
+      <p>A unified icon set for the Australia and New Zealand Banking group. Designed around a 32px icon, which is ideal for print publications and signage, as well as large illustrative use on their website.</p>
+    </div>
+    </article>
+  </section>
+-->
+
+      <section id="handbook">
+      <article>
+      <figure style="background-image:url(/svg/iconhandbook.svg)"><img src="/svg/iconhandbook.svg" alt="ANZ icons"></figure>
+
+    <div class="description">
+      <h2>The Icon Handbook</h2>
+        <p>Written and illustrated by Jon Hicks, The Icon Handbook is the reference manual, how-to guide and coffee-table-book-in-one for icons and pictograms. <a href="http://iconhandbook.co.uk/">Read more</a></p>
+    </div>
+    </article>
+  </section>
+
+
+    <section id="about">
+    <article class="center top">
+     <div class="description">
+    <h2>About Us</h2>
+
+      <p>From our studio in Oxfordshire we have worked for a wide variety of lovely clients. You may recognise our identity work on logos for Firefox, Mailchimp and Shopify, as well as emoticons for Skype. <a href="#contact">Contact us</a> for help with your next project!</p>
+     </div>
+
+		<div class="clients">
+
+			<img src="svg/clients/dyson.svg" alt="Dyson">
+
+            <img src="svg/clients/skype.svg" alt="Skype">
+
+            <img src="svg/clients/spotify.svg" alt="Spotify">
+
+            <img src="svg/clients/mozilla.svg" alt="Mozilla">
+
+            <img src="svg/clients/ddg.svg" alt="DuckDuckGo">
+
+            <img src="svg/clients/canva.svg" alt="Canva">
+
+            <img src="svg/clients/monotype.svg" alt="Monotype">
+
+        </div>
+  </article>
+  </section>
+
+
+
+
+
+      <section id="contact">
+      <article>
+      <h2>Contact us</h2>
+      <div class="grid">
+        <div>
+
+      		<p>Call Jon on <a href="tel:00447917391536" class="tel">+44 (0)7917 391536</a>, email <a class="email" href="mailto:jon@hicksdesign.co.uk">jon@hicksdesign.co.uk</a> or tweet <a href="https://twitter.com/Hicksdesign">@hicksdesign</a>.</p>
+
+      		<p>Alternatively, pop in for tea and cake at the studio&hellip;</p>
+    		</div>
+
+			<div class="adr">
+				<p><span class="org">Hicks</span><br>
+				<span class="street-address">Wenrisc House</span><br>
+				<span class="street-address">Meadow Court</span><br>
+				<span class="locality">Witney</span>, <span class="postal-code">OX28 6ER</span><br>
+				<span class="country-name">United Kingdom</span></p>
+			</div>
+
+    </div>
+    </article>
+  </section>
+
+
+  <footer class="nav-el">
+
+    <div class="socials">
+    <a href="http://twitter.com/Hicksdesign" title="Hicksdesign on Twitter"><svg class="twitter" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><title>twitter</title><path fill-rule="evenodd" d="M24 4.368c-.883.402-1.832.673-2.828.795 1.016-.625 1.797-1.614 2.165-2.793-.951.579-2.005.999-3.127 1.225-.898-.981-2.178-1.594-3.594-1.594-2.719 0-4.924 2.261-4.924 5.049 0 .396.044.781.128 1.151-4.092-.211-7.72-2.221-10.149-5.275-.424.746-.667 1.613-.667 2.538 0 1.752.869 3.297 2.19 4.202-.807-.026-1.566-.253-2.23-.631v.063c0 2.446 1.697 4.487 3.95 4.951-.413.115-.848.177-1.297.177-.317 0-.626-.032-.927-.091.627 2.006 2.445 3.466 4.6 3.506-1.685 1.354-3.808 2.161-6.115 2.161-.397 0-.789-.024-1.175-.071 2.179 1.433 4.767 2.269 7.548 2.269 9.057 0 14.01-7.694 14.01-14.366l-.014-.653c.962-.712 1.797-1.601 2.457-2.614"/></svg></a>
+    <!-- <a href="http://www.facebook.com/Hicksdesign"><svg class="facebook" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><title>facebook</title><path fill-rule="evenodd" d="M15,23 L15,15 L18,15 L18,12 L15,12 L15,9 C15,8.20431716 15.5021187,8 16,8 L18,8 L18,5 L16,5 C14.7881433,5 13.7004635,5.36593082 13,6 C12.2995365,6.63406918 12,7.18607695 12,9 L12,12 L10,12 L10,15 L12,15 L12,23 L4.00138694,23 C2.3437667,23 1,21.6569187 1,19.9986131 L1,4.00138694 C1,2.3437667 2.34308127,1 4.00138694,1 L19.9986131,1 C21.6562333,1 23,2.34308127 23,4.00138694 L23,19.9986131 C23,21.6562333 21.6569187,23 19.9986131,23 L15,23 Z"/></svg>
+</a> 	-->
+    <a href="http://instagram.com/hicksdesign"><svg class="instagram" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><title>instagram</title><path fill-rule="evenodd" d="M22.954 18.088c0 2.645-2.133 4.789-4.768 4.789h-12.371c-2.635 0-4.768-2.144-4.768-4.789v-12.279c0-2.645 2.133-4.789 4.768-4.789h12.376c2.635 0 4.768 2.144 4.768 4.789v12.279h-.005zm-2.987-3.102v-5.972c0-2.841-2.16-4.981-4.981-4.981h-5.972c-2.823 0-4.981 2.142-4.981 4.981v5.972c0 2.841 2.16 4.981 4.981 4.981h5.972c2.823 0 4.981-2.142 4.981-4.981zm-2-5.972v5.972c0 1.732-1.26 2.981-2.981 2.981h-5.972c-1.721 0-2.981-1.249-2.981-2.981v-5.972c0-1.732 1.26-2.981 2.981-2.981h5.972c1.721 0 2.981 1.249 2.981 2.981zm-1.968 3.006c.046-2.294-1.5-3.945-3.97-4.02-2.216-.061-4.03 1.772-4.03 4 0 2.21 1.79 4 4 4 2.194 0 3.948-1.769 4-3.98zm0-3.02c.552 0 1-.448 1-1s-.448-1-1-1-1 .448-1 1 .448 1 1 1zm-4.027 1c-1.07-.029-1.973.883-1.973 2 0 1.105.895 2 2 2 1.092 0 1.973-.887 2-2.022.024-1.203-.664-1.938-2.028-1.979z"/></svg></a>
+    <!-- <a href="https://dribbble.com/hicksdesign" title="Hicksdesign on dribbble"><svg class="dribbble" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><title>dribbble</title><path d="M22.116 13.638h.001c-.45 2.853-2.091 5.312-4.396 6.861-.104-.62-.648-3.623-1.99-7.302 3.215-.508 6.038.327 6.385.441zm-6.113 7.809l-.002-.001c-1.228.527-2.587.817-4.003.807-2.372 0-4.556-.807-6.29-2.159.188-.374 2.26-4.383 8.044-6.401l.067-.018c1.434 3.737 2.034 6.871 2.184 7.772zm-11.616-2.581h.001c-1.64-1.821-2.634-4.224-2.644-6.862l.01-.31c.45.01 5.419.076 10.537-1.454.3.573.581 1.154.834 1.738l-.403.12c-5.288 1.718-8.1 6.373-8.335 6.768zm-2.417-8.954c.664-3.172 2.802-5.819 5.68-7.171.263.366 2.1 2.899 3.797 5.923-4.8 1.276-9.019 1.258-9.477 1.248zm7.63-7.865c.77-.177 1.575-.28 2.4-.28 2.607 0 4.987.975 6.797 2.58-.188.263-1.725 2.328-5.372 3.697-1.678-3.088-3.545-5.622-3.825-5.997zm10.33 3.482l.001-.001c1.435 1.747 2.297 3.97 2.325 6.382-.337-.067-3.722-.761-7.134-.327l-.225-.526c-.216-.498-.45-.995-.684-1.484 3.787-1.548 5.503-3.754 5.717-4.045z"/></svg></a>	-->
+ </div>
+
+     <p>&copy;Hicks 2002&ndash;19</p>
+  </footer>
+
+
+
+
+
+
+
+
 </body>
-
 </html>

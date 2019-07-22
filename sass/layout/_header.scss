@@ -11,19 +11,26 @@
         right: 0;
         pointer-events: none;
         padding: 0 0 0 2rem;
+        max-width: 68rem;
         margin: 0 auto;
         max-width: 68rem;
     }
 }
 
+@media screen and (min-height: 400px) and (min-width: 900px) {
+    .logo {
+        z-index: 10;
+    }
+}
+
 header {
-    padding: 0.84375rem 2rem;
     z-index: 10;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
     min-height: 5.05rem;
     align-items: center;
+    padding: 0.84375rem 2rem;
 
     img {
         width: 175.8px;
@@ -32,13 +39,30 @@ header {
 }
 
 .logo {
-    z-index: 10;
     margin-right: 3rem;
+    z-index: 100;
     margin-left: -5px;
 
     a {
         display: block;
-        border: none;
-        position: relative
+        position: relative;
+        border-width: initial;
+        border-style: none;
+        border-color: initial;
+        border-image: initial;
+        height: 2.25rem;
+        width: auto;
+        fill: currentcolor;
     }
+}
+
+.nav-el a,
+.nav-el p {
+    transition: color 80ms ease-in-out 0s;
+}
+
+.invert,
+.invert a,
+.invert .description {
+    color: rgb(255, 255, 255);
 }
