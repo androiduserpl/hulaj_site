@@ -406,7 +406,7 @@ html:not(#default) .logo .cls-1 {
 }
 
 .logo img {
-    height: 1.6875rem;
+    height: 3.5rem;
     width: auto;
 }
 
@@ -523,10 +523,13 @@ article.top {
 article.top .description {
     order: -1;
     margin-top: 0.33rem;
+    padding-bottom: 1rem;
 }
 
 #default article.top figure {
-    background-position: center bottom;
+    background-position: center;
+    background-size: cover;
+
 }
 
 article.center {
@@ -1127,7 +1130,7 @@ audio {
 }
 
 #duckduckgo {
-    background-color: #008fdc;
+    background-color: #6b887c;
 }
 
 #lifecraft {
@@ -1240,11 +1243,11 @@ audio {
 
 @media screen and (min-width: 900px) and (min-height: 400px) {
     #duckduckgo article.top {
-        padding: 3rem 0 0 10rem;
+        padding: 3rem 0 0 11rem;
     }
 
     #duckduckgo .description {
-        margin-left: 5rem;
+        margin-left: 2rem;
     }
 
     #duckduckgo article figure {
